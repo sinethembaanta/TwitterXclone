@@ -3,9 +3,541 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Twitter</title>
+    <title>Home / X</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
-<body>
-    
+<body style="background-color: black; font-size: 10px; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+   <header>
+    <div class="nav-items">
+        <a href="#">
+            <i class="bi bi-twitter-x"></i>
+        </a>
+        <a href="#">
+            <i class="bi bi-house-door-fill"></i>
+            <span>Home</span>
+        </a>
+        <a href="#">
+            <i class="bi bi-search"></i>
+            <span>Explore</span>
+        </a>
+        <a href="#">
+            <i class="bi bi-bell"></i>
+            <span>Notifications</span>
+        </a>
+        <a href="#">
+            <i class="bi bi-envelope"></i>
+            <span>Messages</span>
+        </a>
+        <a href="#">
+            <i class="bi bi-slash-square"></i>
+            <span>Grok</span>
+        </a>
+        <a href="#">
+            <i class="bi bi-list"></i>
+            <span>Lists</span>
+        </a>
+        <a href="#">
+            <i class="bi bi-bookmark"></i>
+            <span>Bookmarks</span>
+        </a>
+        <a href="#">
+            <i class="bi bi-people"></i>
+            <span>Communities</span>
+        </a>
+        <a href="#">
+            <i class="bi bi-twitter-x"></i>
+            <span>Premium</span>
+        </a>
+        <a href="#">
+            <i class="bi bi-person"></i>
+            <span>Profile</span>
+        </a>
+        <a href="#">
+            <i class="bi bi-dash-circle"></i>
+            <span>More</span>
+        </a>
+        <button class="tweet-button">
+            Post
+        </button>
+    </div>
+
+    <div class="profile-action">
+        <a class="pic" href="#">
+            <img class="profile-img" src="Assets/profile picture.jpg">
+            <div class="profile-details">
+                <span class="profile-name">Sinethemba</span>
+                <span class="profile-handle">@abdthemba</span>
+            </div>
+            <i class="bi bi-three-dots"></i>
+        </a>
+
+    </div>
+   </header>
+
+   <main>
+    <div class="main-container">
+        <div class="main-feed">
+            <div class="home-container">
+                    <span>Home</span>
+                    <i class="bi bi-stars"></i>
+            </div>
+            <div class="post-tweet-section">
+                <img class="profile-img" src="Assets/profile picture.jpg">
+                <div class="new-tweet-details">
+                    <input type="text" placeholder="What is Happening?!">
+                    <div class="new-tweet-actions">
+                        <ul>
+                            <li>
+                                <i class="bi bi-image" style="color: #1c88d2;"></i>
+                            </li>
+                            <li>
+                                <i class="bi bi-filetype-gif" style="color: #1c88d2;"></i>
+                            </li>
+                            <li>
+                                <i class="bi bi-ui-radios" style="color: #1c88d2;"></i>
+                            </li>
+                            <li>
+                                <i class="bi bi-emoji-smile" style="color: #1c88d2;"></i>
+                            </li>
+                            <li>
+                                <i class="bi bi-calendar" style="color: #1c88d2;"></i>
+                            </li>
+                            <li>
+                                <i class="bi bi-geo-alt" style="color: #1c88d2;"></i>
+                            </li>
+                        </ul>
+                        <button class="tweet-button">
+                            Post
+                        </button>
+                   </div>
+                </div>
+            </div>
+            <div class="tweet-feed">
+                <img class="profile-img" src="Assets/profile picture.jpg">
+                <div class="tweet-feed-details">
+                    <div class="tweeter-details">
+                        <a href="" class="tweeter-name">
+                            Sinethemba Anta
+                            <span class="tweeter-handle">
+                                @abdthemba • 16h
+                            </span>
+                        </a>
+                        <i class="bi bi-three-dots">
+                        </i>
+                    </div>
+                    <div class="tweet-text">
+                        <p>We tend to overestimate what we can do in a day and underestimate what we can do in a few years
+                        </p>
+                    </div>
+                    <div class="tweet-icons">
+                        <i class="bi bi-chat">10</i>
+                        <i class="bi bi-repeat">5</i>
+                        <i class="bi bi-heart">23</i>
+                        <i class="bi bi-bar-chart">47</i>
+                        <i class="bi bi-bookmark"></i>
+                    </div>
+                </div>
+            </div>   
+            <div class="tweet-feed">
+                <img class="profile-img" src="Assets/Kodytools.jpg">
+                <div class="tweet-feed-details">
+                    <div class="tweeter-details">
+                        <a href="" class="tweeter-name">
+                            KodyTools.com
+                            <span class="tweeter-handle">
+                                @KodyTools • May 15
+                            </span>
+                        </a>
+                        <i class="bi bi-three-dots">
+
+                        </i>
+                    </div>
+                    <div class="tweet-text">
+                        <p>Did you experience that?
+                        </p>
+                        <img class="feed-img" src="Assets/CopyTheSameCode.jpeg" alt="">
+                    </div>
+                    <div class="tweet-icons">
+                        <i class="bi bi-chat">36</i>
+                        <i class="bi bi-repeat">29</i>
+                        <i class="bi bi-heart">67</i>
+                        <i class="bi bi-bar-chart">254</i>
+                        <i class="bi bi-bookmark"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="tweet-feed">
+                <img class="profile-img" src="Assets/SG.jpg">
+                <div class="tweet-feed-details">
+                    <div class="tweeter-details">
+                        <a href="" class="tweeter-name">
+                            SG
+                            <span class="tweeter-handle">
+                                @imsacid • May 27
+                            </span>
+                        </a>
+                        <i class="bi bi-three-dots">
+
+                        </i>
+                    </div>
+                    <div class="tweet-text">
+                        <p>
+                            Hi, I'm looking to #connect with people who are interested in<br>
+                            - Software Engineering<br>
+                            - Frontend<br>
+                            - Backend<br>
+                            - Full-stack<br>
+                            - JavaScript/Typescript<br> 
+                            - ReactJS/NextJS<br> 
+                            - NodeJS<br> 
+                            - UI/UX<br>
+                            - Freelancing<br>
+                   
+                            #developers
+                        </p>
+                    </div>
+                    <div class="tweet-icons">
+                        <i class="bi bi-chat">12</i>
+                        <i class="bi bi-repeat">8</i>
+                        <i class="bi bi-heart">43</i>
+                        <i class="bi bi-bar-chart">58</i>
+                        <i class="bi bi-bookmark"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="tweet-feed">
+                <img class="profile-img" src="Assets/Janhavi Patil.jpg">
+                <div class="tweet-feed-details">
+                    <div class="tweeter-details">
+                        <a href="" class="tweeter-name">
+                            Janhavi | Freelance Web Developer 
+                            <span class="tweeter-handle">
+                                @janvCodes • May 15
+                            </span>
+                        </a>
+                        <i class="bi bi-three-dots">
+                        </i>
+                    </div>
+                    <div class="tweet-text">
+                        <p>
+                            How many of your projects are still incomplete?
+                        </p>
+                    </div>
+                    <div class="tweet-icons">
+                        <i class="bi bi-chat">7</i>
+                        <i class="bi bi-repeat">2</i>
+                        <i class="bi bi-heart">16</i>
+                        <i class="bi bi-bar-chart">3k</i>
+                        <i class="bi bi-bookmark"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="tweet-feed">
+                <img class="profile-img" src="Assets/Vishal Singh.jpg">
+                <div class="tweet-feed-details">
+                    <div class="tweeter-details">
+                        <a href="" class="tweeter-name">
+                            Vishal Singh
+                            <span class="tweeter-handle">
+                                @vishalsingh2972 • May 28
+                            </span>
+                        </a>
+                        <i class="bi bi-three-dots">
+
+                        </i>
+                    </div>
+                    <div class="tweet-text">
+                        <p>
+                            Reminder to every developer:
+                        </p>
+                        <p>
+                            All those hours coding, posting, networking and working hard will pay off in the end.
+                        </p>
+                        <p>
+                            Keep going, you got this 💪💯
+                        </p>
+                    </div>
+                    <div class="tweet-icons">
+                        <i class="bi bi-chat">24</i>
+                        <i class="bi bi-repeat">15</i>
+                        <i class="bi bi-heart">90</i>
+                        <i class="bi bi-bar-chart">4.7K</i>
+                        <i class="bi bi-bookmark"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="tweet-feed">
+                <img class="profile-img" src="Assets/rishi.jpg">
+                <div class="tweet-feed-details">
+                    <div class="tweeter-details">
+                        <a href="" class="tweeter-name">
+                            Rishi
+                            <span class="tweeter-handle">
+                                @rishimunii • Mar 28
+                            </span>
+                        </a>
+                        <i class="bi bi-three-dots">
+
+                        </i>
+                    </div>
+                    <div class="tweet-text">
+                        <p>can't even keep up at this point
+                        </p>
+                        <img src="Assets/I wake up.png" alt="" class="feed-img">
+                    </div>
+                    <div class="tweet-icons">
+                        <i class="bi bi-chat">210</i>
+                        <i class="bi bi-repeat">157</i>
+                        <i class="bi bi-heart">560</i>
+                        <i class="bi bi-bar-chart">3.4K</i>
+                        <i class="bi bi-bookmark"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="tweet-feed">
+                <img class="profile-img" src="Assets/profile picture.jpg">
+                <div class="tweet-feed-details">
+                    <div class="tweeter-details">
+                        <a href="" class="tweeter-name">
+                            Sinethemba Anta
+                            <span class="tweeter-handle">
+                                @abdthemba
+                            </span>
+                        </a>
+                        <i class="bi bi-three-dots">
+
+                        </i>
+                    </div>
+                    <div class="tweet-text">
+                        <p>We tend to overestimate what we can do in a day and underestimate what we can do in a few years
+                        </p>
+                    </div>
+                    <div class="tweet-icons">
+                        <i class="bi bi-chat">10</i>
+                        <i class="bi bi-repeat">5</i>
+                        <i class="bi bi-heart">23</i>
+                        <i class="bi bi-bar-chart">47</i>
+                        <i class="bi bi-bookmark"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="tweet-feed">
+                <img class="profile-img" src="Assets/profile picture.jpg">
+                <div class="tweet-feed-details">
+                    <div class="tweeter-details">
+                        <a href="" class="tweeter-name">
+                            Sinethemba Anta
+                            <span class="tweeter-handle">
+                                @abdthemba
+                            </span>
+                        </a>
+                        <i class="bi bi-three-dots">
+
+                        </i>
+                    </div>
+                    <div class="tweet-text">
+                        <p>We tend to overestimate what we can do in a day and underestimate what we can do in a few years
+                        </p>
+                    </div>
+                    <div class="tweet-icons">
+                        <i class="bi bi-chat">10</i>
+                        <i class="bi bi-repeat">5</i>
+                        <i class="bi bi-heart">23</i>
+                        <i class="bi bi-bar-chart">47</i>
+                        <i class="bi bi-bookmark"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="tweet-feed">
+                <img class="profile-img" src="Assets/profile picture.jpg">
+                <div class="tweet-feed-details">
+                    <div class="tweeter-details">
+                        <a href="" class="tweeter-name">
+                            Sinethemba Anta
+                            <span class="tweeter-handle">
+                                @abdthemba
+                            </span>
+                        </a>
+                        <i class="bi bi-three-dots">
+
+                        </i>
+                    </div>
+                    <div class="tweet-text">
+                        <p>We tend to overestimate what we can do in a day and underestimate what we can do in a few years
+                        </p>
+                    </div>
+                    <div class="tweet-icons">
+                        <i class="bi bi-chat">10</i>
+                        <i class="bi bi-repeat">5</i>
+                        <i class="bi bi-heart">23</i>
+                        <i class="bi bi-bar-chart">47</i>
+                        <i class="bi bi-bookmark"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="tweet-feed">
+                <img class="profile-img" src="Assets/profile picture.jpg">
+                <div class="tweet-feed-details">
+                    <div class="tweeter-details">
+                        <a href="" class="tweeter-name">
+                            Sinethemba Anta
+                            <span class="tweeter-handle">
+                                @abdthemba
+                            </span>
+                        </a>
+                        <i class="bi bi-three-dots">
+
+                        </i>
+                    </div>
+                    <div class="tweet-text">
+                        <p>We tend to overestimate what we can do in a day and underestimate what we can do in a few years
+                        </p>
+                    </div>
+                    <div class="tweet-icons">
+                        <i class="bi bi-chat">10</i>
+                        <i class="bi bi-repeat">5</i>
+                        <i class="bi bi-heart">23</i>
+                        <i class="bi bi-bar-chart">47</i>
+                        <i class="bi bi-bookmark"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="tweet-feed">
+                <img class="profile-img" src="Assets/profile picture.jpg">
+                <div class="tweet-feed-details">
+                    <div class="tweeter-details">
+                        <a href="" class="tweeter-name">
+                            Sinethemba Anta
+                            <span class="tweeter-handle">
+                                @abdthemba
+                            </span>
+                        </a>
+                        <i class="bi bi-three-dots">
+
+                        </i>
+                    </div>
+                    <div class="tweet-text">
+                        <p>We tend to overestimate what we can do in a day and underestimate what we can do in a few years
+                        </p>
+                    </div>
+                    <div class="tweet-icons">
+                        <i class="bi bi-chat">10</i>
+                        <i class="bi bi-repeat">5</i>
+                        <i class="bi bi-heart">23</i>
+                        <i class="bi bi-bar-chart">47</i>
+                        <i class="bi bi-bookmark"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="tweet-feed">
+                <img class="profile-img" src="Assets/profile picture.jpg">
+                <div class="tweet-feed-details">
+                    <div class="tweeter-details">
+                        <a href="" class="tweeter-name">
+                            Sinethemba Anta
+                            <span class="tweeter-handle">
+                                @abdthemba
+                            </span>
+                        </a>
+                        <i class="bi bi-three-dots">
+
+                        </i>
+                    </div>
+                    <div class="tweet-text">
+                        <p>We tend to overestimate what we can do in a day and underestimate what we can do in a few years
+                        </p>
+                    </div>
+                    <div class="tweet-icons">
+                        <i class="bi bi-chat">10</i>
+                        <i class="bi bi-repeat">5</i>
+                        <i class="bi bi-heart">23</i>
+                        <i class="bi bi-bar-chart">47</i>
+                        <i class="bi bi-bookmark"></i>
+                    </div>
+                </div>
+            </div>       
+        </div>
+
+        <div class="side-feed">
+            <div class="search">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="trending">
+                <h1 class="h1-title">South Africa trends</h1>
+                <div class="trending-item">
+                    <div class="item-category">
+                        <span>1 • Trending</span>
+                        <i class="bi bi-three-dots"></i>
+                    </div>
+                    <p class="trend-name">#ThaboBester</p>
+                    <span>15.3K posts</span>
+                </div>
+                <div class="trending-item">
+                    <div class="item-category">
+                        <span>1 • Trending</span>
+                        <i class="bi bi-three-dots"></i>
+                    </div>
+                    <p class="trend-name">Allende</p>
+                    <span>6,871 posts</span>
+                </div>
+                <div class="trending-item">
+                    <div class="item-category">
+                        <span>1 • Trending</span>
+                        <i class="bi bi-three-dots"></i>
+                    </div>
+                    <p class="trend-name">Nandipha</p>
+                    <span>9,212 posts</span>
+                </div>
+                <div class="trending-item">
+                    <div class="item-category">
+                        <span>1 • Trending</span>
+                        <i class="bi bi-three-dots"></i>
+                    </div>
+                    <p class="trend-name">Zizi Kodwa</p>
+                    <span>23.8K posts</span>
+                </div>
+                <div class="trending-item">
+                    <div class="item-category">
+                        <span>1 • Trending</span>
+                        <i class="bi bi-three-dots"></i>
+                    </div>
+                    <p class="trend-name">Allende</p>
+                    <span>6,871 posts</span>
+                </div> 
+                <a href="" class="show-more">Show more</a>
+            </div>
+            <div class="whotofollow">
+                <h1 class="h1-title">Who to follow</h1>
+                <div class="follow-profile">
+                    <div class="follow-cont">
+                        <img class="profile-img" src="Assets/divyansh.jpg">
+                        <div class="follow-details">
+                            <a href="">
+                               Divyansh
+                            </a>
+                            <span>@coder_divyansh <span id="follows">follows you</span></span>
+                        </div>
+                    </div>
+                    <button class="tweets-button">Follow</button>
+                </div>
+                <div class="follow-profile">
+                    <div class="follow-cont">
+                        <img class="profile-img" src="Assets/divyansh.jpg">
+                        <div class="follow-details">
+                            <a href="">
+                                Divyansh
+                            </a>
+                            <span>@coder_divyansh <span id="follows">follows you</span></span>
+                        </div>
+                    </div>
+                    <button class="tweets-button">Follow</button>
+                </div>
+                <a href="" class="show-more">Show more</a>
+            </div>
+        </div>
+    </div>
+   </main>
 </body>
 </html>
